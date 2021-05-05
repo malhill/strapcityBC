@@ -1,0 +1,32 @@
+/* Testing connectivity */
+body {
+    /* background-color: red; */
+}
+
+#title {
+    color: black;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.current {
+    background-color: blue;
+}
+
+/* image div  */
+#headcoach {
+    /* margin: auto; */
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px 10px;
+    margin: 20px auto;
+}
+
+/* headcoach image  */
+.img-thumbnail {
+    /* height: 500px; */
+    height: 10%;
+    /* width: 300px; */
+    width: 100%;
+}
+
