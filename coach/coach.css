@@ -1,3 +1,4 @@
+/* Testing connectivity */
 body {
     /* background-color: red; */
 }
@@ -8,14 +9,23 @@ body {
     margin: 50px auto;
 }
 
+.current {
+    background-color: blue;
+}
+
+/* image div  */
 #headcoach {
     /* margin: auto; */
     width: 50%;
     border: 3px solid black;
     padding: 10px 10px;
-    margin: 20px auto
+    margin: 20px auto;
 }
 
-.current {
-    background-color: blue;
+/* headcoach image  */
+.img-thumbnail {
+    height: 500px;
+    /* width: 300px; */
+    width: 100%;
 }
+
