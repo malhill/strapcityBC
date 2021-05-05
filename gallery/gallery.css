@@ -7,3 +7,7 @@ body {
     text-align: center;
     margin: 50px auto;
 }
+
+.current {
+    background-color: green;
+}

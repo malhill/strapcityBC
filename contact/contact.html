@@ -16,27 +16,34 @@
 </head>
 
 <body>
-    
+
+    <!-- Club title -->
     <h1 id='title'>Strap City Boxing Club</h1>
 
+    <!-- Navigation connecting all of the tabs to each other -->
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-            <a class="nav-link  navbar border-bottom border-dark" aria-current="page" href="../index.html">Home</a>
+            <a class="nav-link navbar border-bottom border-dark" aria-current="page" href="../index.html">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link  navbar border-bottom border-dark" aria-current="page" href="../coach/coach.html">Meet the Coach's</a>
+            <a class="nav-link navbar border-bottom border-dark" aria-current="page" href="../coach/coach.html">Meet the Coach's</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item"> 
             <a class="nav-link navbar border-bottom border-dark" href="../news/news.html">News</a>
         </li>
         <li class="nav-item">
             <a class="nav-link navbar border-bottom border-dark" href="../gallery/gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link navbar border-bottom border-dark" href="../contact/contact.html">Contact</a>
+            <!-- added a current class to highlight the current tab  -->
+            <a class="nav-link current navbar border-bottom border-dark" href="../contact/contact.html">Contact</a>
         </li>
     </ul>
 
+    <!-- club logo will go right underneath the nav bar section on each page -->
+    <img src="clublogo.png" class="clublogo img-fluid" alt="Strap City Boxing Club">
+
+    <!-- Boostrap template for future client information detailing name, phone number, and email -->
     <form>
         <div class="row mb-3">
             <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
@@ -56,6 +63,8 @@
                 <input type="password" class="form-control" id="inputPassword3">
             </div>
         </div>
+
+        <!-- Here are preference options detailing fighter, fitness, youth.  -->
         <fieldset class="row mb-3">
             <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
             <div class="col-sm-10">
@@ -63,24 +72,25 @@
                     <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
                         checked>
                     <label class="form-check-label" for="gridRadios1">
-                        First radio
+                        Fighter
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
                     <label class="form-check-label" for="gridRadios2">
-                        Second radio
+                        Fitness
                     </label>
                 </div>
                 <div class="form-check disabled">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3"
-                        disabled>
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
                     <label class="form-check-label" for="gridRadios3">
-                        Third disabled radio
+                        Youth
                     </label>
                 </div>
             </div>
         </fieldset>
+
+        <!-- Havnen't found a need for the checkboxes yet!  -->
         <div class="row mb-3">
             <div class="col-sm-10 offset-sm-2">
                 <div class="form-check">
@@ -91,6 +101,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- submit button will send future client information to owner -->
         <button type="submit" class="btn btn-primary">Send</button>
     </form>
 
