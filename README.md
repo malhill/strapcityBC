@@ -1,6 +1,6 @@
 # strapCityBC
 
-## Coach's Inquiries 
+## Coach's Inquiries
 
 * Title
 * Meet the Coach's Tab, bio's and creds
@@ -10,7 +10,7 @@
 * Gallery
 * News
 
-## Tools 
+## Tools
 
 * HTML
 * JS
@@ -19,3 +19,5 @@
 ## References
 
 * https://strapcitybc.com/strapcity-boxing-club
+
+version: 00000.1

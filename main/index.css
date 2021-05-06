@@ -28,9 +28,6 @@ header, Footer, #title-container, #foot-container{
 
 /*** Header, Footer, Nav End ***/
 
-.current {
-    background-color: orange;
-}
 
 /* Home Page Banner */
 
@@ -42,7 +39,7 @@ header, Footer, #title-container, #foot-container{
 
 /*** Home Page Banner End ***/
 
-/* This style will allow you to see the div, this can and should be safely deleted before launch of site.*/
+/* This style will allow you to see the div, this can and should be safely deleted before launch of site.
 .col-6{
   border: solid black 1px;
 }
