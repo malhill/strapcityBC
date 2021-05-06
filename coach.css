@@ -3,11 +3,6 @@ body {
     /* background-color: red; */
 }
 
-#title {
-    color: black;
-    text-align: center;
-    margin: 50px auto;
-}
 
 .current {
     background-color: blue;
@@ -29,4 +24,3 @@ body {
     /* width: 300px; */
     width: 100%;
 }
-
