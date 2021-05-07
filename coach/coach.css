@@ -3,6 +3,8 @@ body {
     /* background-color: red; */
 }
 
+
+
 /* image div  */
 #headcoach {
     /* margin: auto; */
@@ -32,15 +34,19 @@ body{
   
   
   /* This contains all the header, footer, and nav content */
+  #title-container {
+    height: 7em
+  }
+
   header, Footer, #title-container, #foot-container{
     background-color: rgb(99, 0, 0);
   }
-  #title-container,
+
   #foot-container{
-    height: 8.9375em;
+    height: 2em;
   }
   
-  #title {
+   #title {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -49,7 +55,6 @@ body{
       height: 100%;
   }
   
-  
   .nav {
     border-bottom: solid rgba(0,0,0,.7) 2px;
   }
@@ -57,8 +62,7 @@ body{
   #nav-container{
     background-color: rgba(0, 0, 0, .7);
   }
-  
-  
+   
   /*** Header, Footer, Nav End ***/
   
   
