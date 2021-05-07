@@ -4,7 +4,7 @@ body {
 }
 
 .current {
-    background-color: purple;
+  background-color: rgb(204, 195, 214);
 }
 
 /* Testing */
@@ -13,7 +13,7 @@ body{
   }
   
   #current {
-    background-color: blueviolet;
+    background-color: rgb(204, 195, 214);
   }
   
   /* This contains all the header, footer, and nav content */

@@ -8,34 +8,34 @@ body{
     /* background-color: blueviolet; */
   }
   
-  #current {
-    background-color: blueviolet;
+#current {
+    background-color: rgb(204, 195, 214);
   }
   
-  /* This contains all the header, footer, and nav content */
-  header, Footer, #title-container, #foot-container{
+/* This contains all the header, footer, and nav content */
+header, Footer, #title-container, #foot-container{
     background-color: rgb(99, 0, 0);
   }
-  #title-container,
-  #foot-container{
+#title-container,
+#foot-container{
     height: 8.9375em;
   }
   
-  #title {
+#title {
       display: flex;
       justify-content: center;
       align-items: center;
       color: white;
       font-family: 'Vollkorn', Georgia, serif;
       height: 100%;
-  }
+}
   
   
-  .nav {
+.nav {
     border-bottom: solid rgba(0,0,0,.7) 2px;
-  }
+}
   
-  #nav-container{
+#nav-container{
     background-color: rgba(0, 0, 0, .7);
   }
   
@@ -46,7 +46,7 @@ body{
   /* Home Page Banner */
   
   
-  #HomePageBanner{
+#HomePageBanner{
     max-height: 21.25em;
     height: 21.25em;
     border: solid black 1px;
@@ -62,5 +62,5 @@ body{
   /*** End ^ ***/
 
 .current {
-    background-color: orange;
+  background-color: rgb(204, 195, 214);
 }

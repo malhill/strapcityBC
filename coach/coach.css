@@ -21,8 +21,8 @@ body {
 }
 
 #current,
-.current {
-    background-color: blue;
+.current {  
+  background-color: rgb(204, 195, 214);
 }
 
 /* Testing */
@@ -30,9 +30,6 @@ body{
     /* background-color: blueviolet; */
   }
   
-  #current {
-    background-color: blueviolet;
-  }
   
   /* This contains all the header, footer, and nav content */
   header, Footer, #title-container, #foot-container{
