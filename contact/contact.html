@@ -14,32 +14,50 @@
     <link rel="stylesheet" href="">
 
     <title>Contact</title>
+
 </head>
 
 <body>
 
-    <!-- Club title -->
-    <h1 id='title'>Strap City Boxing Club</h1>
+    <!-- header was not added for contacts -->
+    <header>
+
+        <div id="title-container">
+            <a style="text-decoration: none;" href="../index.html"><img src="" alt="logo"></a>
+            <!-- Club title -->
+            <a style="text-decoration: none;" href="../index.html">
+                <h1 id="title">Strap City Boxing Club</h1>
+            </a>
+        </div>
+
+        <!-- Club title -->
+        <!-- commented out because the link would be better -->
+        <!-- <h1 id='title'>Strap City Boxing Club</h1> -->
+
+    </header>
 
     <!-- Navigation connecting all of the tabs to each other -->
-    <div id="nav-container">
-        <ul class="nav nav-pills">
+    <nav id="nav-container">
+        <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-                <a class="nav-link navbar active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link navbar border-bottom border-dark" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbar " aria-current="page" href="./coach.html">Meet the Coach's</a>
+                <a class="nav-link navbar border-bottom border-dark" href="../coach/coach.html">Meet the
+                    Coach's</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbar " href="./news.html">News</a>
+                <a class="nav-link navbar border-bottom border-dark" href="../news/news.html">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbar " href="./coach/-beta1">Gallery</a>
+                <a class="nav-link navbar border-bottom border-dark" href="../gallery/gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbar" href="./contact.html">Contact</a>
-      </div>
-    </header>
+                <!-- added a current class to highlight the current tab  -->
+                <a class="current nav-link navbar border-bottom border-dark" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
     <!-- club logo will go right underneath the nav bar section on each page -->
     <img src="clublogo.png" class="clublogo img-fluid" alt="Strap City Boxing Club">
@@ -109,13 +127,14 @@
 
     <!-- Footer Content -->
     <footer class="footer fixed-bottom">
-      <div id="foot-container">
+        <div id="foot-container">
 
-        <!-- club logo will go right underneath the nav bar section on each page -->
+            <!-- club logo will go right underneath the nav bar section on each page -->
 
-        <img src="clublogo.png" class="clublogo img-fluid" alt="Strap City Boxing Club">
-        <h4 class="mt-3 text-center">Copyright © <span id="years"></span> Strap City Boxing Club - All Rights Reserved.</h4>
-      </div>
+            <img src="clublogo.png" class="clublogo img-fluid" alt="Strap City Boxing Club">
+            <h4 class="mt-3 text-center">Copyright © <span id="years"></span> Strap City Boxing Club - All Rights
+                Reserved.</h4>
+        </div>
     </footer>
     <!-- /Footer Content -->
 
