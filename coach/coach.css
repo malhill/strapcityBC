@@ -1,0 +1,85 @@
+/* Testing connectivity */
+body {
+    /* background-color: red; */
+}
+
+
+
+/* image div  */
+#headcoach {
+    /* margin: auto; */
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px 10px;
+    margin: 20px auto;
+}
+
+/* headcoach image  */
+.img-thumbnail {
+    /* height: 500px; */
+    height: 500px;
+    /* width: 300px; */
+    width: 100%;
+}
+
+#current,
+.current {  
+  background-color: rgb(204, 195, 214);
+}
+
+/* Testing */
+body{
+    /* background-color: blueviolet; */
+  }
+  
+  
+  /* This contains all the header, footer, and nav content */
+  #title-container {
+    height: 7em
+  }
+
+  header, Footer, #title-container, #foot-container{
+    background-color: rgb(99, 0, 0);
+  }
+
+  #foot-container{
+    height: 2em;
+  }
+  
+   #title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: 'Vollkorn', Georgia, serif;
+      height: 100%;
+  }
+  
+  .nav {
+    border-bottom: solid rgba(0,0,0,.7) 2px;
+  }
+  
+  #nav-container{
+    background-color: rgba(0, 0, 0, .7);
+  }
+   
+  /*** Header, Footer, Nav End ***/
+  
+  
+  /* Home Page Banner */
+  
+  #HomePageBanner{
+    max-height: 21.25em;
+    height: 21.25em;
+    border: solid black 1px;
+  }
+  
+  /*** Home Page Banner End ***/
+  
+  /* This style will allow you to see the div, this can and should be safely deleted before launch of site.
+  .col-6{
+    border: solid black 1px;
+  }
+  
+  /*** End ^ ***/
+  

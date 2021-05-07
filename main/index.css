@@ -1,10 +1,24 @@
+/* Testing */
+body{
+  /* background-color: blueviolet; */
+  background-color: rgb(246, 246, 246);
+}
+
+#current {
+  background-color: rgb(204, 195, 214);
+}
+
 /* This contains all the header, footer, and nav content */
 header, Footer, #title-container, #foot-container{
   background-color: rgb(99, 0, 0);
 }
-#title-container,
+
+#title-container {
+  height: 7em
+}
+
 #foot-container{
-  height: 8.9375em;
+  height: 2em;
 }
 
 #title {
@@ -32,16 +46,41 @@ header, Footer, #title-container, #foot-container{
 /* Home Page Banner */
 
 #HomePageBanner{
-  max-height: 21.25em;
-  height: 21.25em;
-  border: solid black 1px;
+  /* max-height: 21.25em; */
+  /* height: 21.25em; */
+  text-align: center;
+  /* max-width: 50%; */
+  width: 100%;
+  height: auto;
+  /* border: solid black 1px; */
+  background-color: rgb(246, 246, 246);
+  margin-bottom: auto;
 }
-
 /*** Home Page Banner End ***/
 
-/* This style will allow you to see the div, this can and should be safely deleted before launch of site.
-.col-6{
-  border: solid black 1px;
+/* Carousel  */
+.d-block {
+  /* width: 500px; */
+  /* width: 100%; */
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+/* Carousel End */
+
+/* Home Information */
+.homeInfo {
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+/* Home Information End*/
+
+
 
 /*** End ^ ***/

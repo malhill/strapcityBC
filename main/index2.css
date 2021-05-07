@@ -1,3 +1,8 @@
+/* testing */
+body {
+  background-color: blueviolet;
+}
+
 /* This contains all the header, footer, and nav content */
 header, Footer, #title-container, #foot-container{
   background-color: rgb(99, 0, 0);
