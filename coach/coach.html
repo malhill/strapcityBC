@@ -12,7 +12,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="coach.css">
 
     <title>Meet the Coach's</title>
@@ -21,20 +21,21 @@
 
 <body>
 
-    <Header>
+    <header>
 
-        <!-- club logo will go right underneath the nav bar section on each page -->
-        <img src="clublogo.png" class="clublogo img-fluid" alt="Strap City Boxing Club">
-        <!-- Club title -->
         <div id="title-container">
-            <a style="text-decoration: none;" href="index.html"><img src="" alt="logo"></a>
+            <a style="text-decoration: none;" href="../index.html"><img src="" alt="logo"></a>
             <!-- Club title -->
-            <a style="text-decoration: none;" href="index.html">
-              <h1 id="title">Strap City Boxing Club</h1>
+            <a style="text-decoration: none;" href="../index.html">
+                <h1 id="title">Strap City Boxing Club</h1>
             </a>
         </div>
 
-    </Header>
+        <!-- Club title -->
+        <!-- commented out because the link would be better -->
+        <!-- <h1 id='title'>Strap City Boxing Club</h1> -->
+
+    </header>
 
     <!-- Navigation connecting all of the tabs to each other -->
     <nav id="nav-container">
@@ -44,7 +45,7 @@
             </li>
             <li class="nav-item">
                 <!-- added a current class to highlight the current tab  -->
-                <a class="current nav-link current navbar border-bottom border-dark" href="./coach.html">Meet the
+                <a id='current' class="current nav-link navbar border-bottom border-dark" href="./coach.html">Meet the
                     Coach's</a>
             </li>
             <li class="nav-item">
