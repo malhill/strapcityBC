@@ -1,0 +1,23 @@
+.box{
+  border: solid black 2px;
+}
+
+
+#home-lb{
+  height: 450px;
+}
+
+#home-rb{
+  height: 275px;
+
+}
+
+#foot{
+  height: 25px;
+}
+
+
+.images{
+  height: 100px;
+  min-width: 100px;
+}
