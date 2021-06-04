@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block title %}Gallery{% endblock %}
+{% block where %}Strap City Gallery{% endblock %}
+
+{% block link %}<link rel="stylesheet" href="{{url_for('static', filename='css/gallery.css')}}">{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+    <div class="row d-flex justify-content-around">
+
+      <div class="col-md-6">
+
+        {% for num, image in enumerate(dir("static/gallery")) %}
+          {% if num % 3 == 0 %}
+            <div class="row no-gutters ">
+              <a class="col-3 d-flex w-100" href="{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+                <img class="img-fluid" src="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+              </a>
+          {% elif num % 3 == 2 %}
+              <a class="col-3 d-flex w-100" href="{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+                <img class="img-fluid" src="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+              </a>
+              </div>
+
+          {% else %}
+              <a class="col-3 d-flex w-100" href="{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+                <img class="img-fluid" src="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+              </a>
+
+          {% endif %}
+        {% endfor %}
+
+<!--        <div class="row ">-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--          <div class="col-3 box images">-->
+
+<!--          </div>-->
+<!--        </div>-->
+
+
+
+      </div>
+
+      <!-- Video -->
+      <div class="col-md-6 " >
+        <video width="100%" controls>
+          <source src="{{url_for('static', filename='videos/Video.mov')}}" type="video/mp4">
+
+          Your browser does not support HTML video.
+        </video>
+
+        <video width="100%" controls>
+          <source src="{{url_for('static', filename='videos/Video_1.mov')}}" type="video/mp4">
+
+          Your browser does not support HTML video.
+        </video>
+      </div>
+
+
+    </div>
+      </div>
+
+{% endblock %}
+
+
