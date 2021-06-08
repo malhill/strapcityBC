@@ -9,9 +9,8 @@ quokka
 
 ## Work done
 * Head and title created for each file 
-
 ## Questions
-* Why does the head work without having to import it?
+
 
 ## Todo List
 * Finish Next.js 

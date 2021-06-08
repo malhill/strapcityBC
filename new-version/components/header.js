@@ -6,8 +6,17 @@ export default function Header() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="">
+      <Navbar.Brand href="/">
+      <img
+        alt=""
+        src="./public/images/club-logo-mini.jpg"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+      />
+    </Navbar.Brand>
+
+        <Nav className="justify-content-end">
 
           <Nav.Link>
             <Link href="/">
