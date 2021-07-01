@@ -3,6 +3,44 @@
   border-radius: 2.5%;
 }
 
+.redbackground{
+  background-color: #9C0900;
+  border-bottom: 10px solid black;
+}
+
+.logo{
+  width: 150px;
+}
+
+.custnav{
+  background-color: #140200;
+}
+
+.nav-link{
+  color: #fff!important;
+}
+
+.title{
+  text-align: center;
+  color: #9C0900;
+    background: #fff;
+    display: inline-block;
+    letter-spacing: .15em;
+    line-height: 26px;
+    margin-bottom: 0;
+    padding: 0 15px;
+    position: relative;
+    text-transform: uppercase;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 900;
+}
+
+.titlecontainer{
+  border-bottom: 2px solid #9C0900;
+  text-align: center;
+}
 
 #home-lb{
   height: 450px;
@@ -10,7 +48,6 @@
 
 #home-rb{
   height: 275px;
-
 }
 
 #foot{
