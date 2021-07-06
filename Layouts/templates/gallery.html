@@ -14,82 +14,23 @@
         {% for num, image in enumerate(dir("static/gallery")) %}
           {% if num % 3 == 0 %}
             <div class="row no-gutters ">
-              <a class="col-3 d-flex w-100" href="{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+              <a class="col-3 d-flex w-100" href="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
                 <img class="img-fluid" src="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
               </a>
           {% elif num % 3 == 2 %}
-              <a class="col-3 d-flex w-100" href="{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+              <a class="col-3 d-flex w-100" href="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
                 <img class="img-fluid" src="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
               </a>
               </div>
 
           {% else %}
-              <a class="col-3 d-flex w-100" href="{url_for('static', filename='gallery/{image}'.format(image=image))}}">
+              <a class="col-3 d-flex w-100" href="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
                 <img class="img-fluid" src="{{url_for('static', filename='gallery/{image}'.format(image=image))}}">
               </a>
 
           {% endif %}
         {% endfor %}
 
-<!--        <div class="row ">-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--        </div>-->
-
-<!--        <div class="row">-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--        </div>-->
-
-<!--        <div class="row">-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--        </div>-->
-
-<!--        <div class="row">-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--        </div>-->
-
-<!--        <div class="row">-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--          <div class="col-3 box images">-->
-
-<!--          </div>-->
-<!--        </div>-->
 
 
 
@@ -112,6 +53,7 @@
 
 
     </div>
+
       </div>
 
 {% endblock %}
